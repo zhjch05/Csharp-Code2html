@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Code2Html.exe" version="1.0.0.0" publicKeyToken="95b94e6e251db07f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Code2Html" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Code2Html.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Code2Html.exe" size="9728">
+      <assemblyIdentity name="Code2Html" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>eXdAfoHf6jZKD+1YFrIwxj2p39htOXcDWFWUYJs74ME=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Code2Html.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ZJC_PC\zhjch" issuerKeyHash="495600f71dab820f2c4d00d787d6c9a7414a1694" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>v54u3i58yO06fl1ZGtczY+BKBl7KKGOlQiGjhfwhxDQ=</DigestValue></Reference></SignedInfo><SignatureValue>FAYf/WuQvKY68oXDzWWHsR3Zefh0iJYF1OWfV0KhZUNNDIyVxUJBqF9a1d1CqDF69BiVbTw/0vfXHVs0QESUD2t2o3P6H4mmC/IjCvO9LDq0zYaJ922u/3PLMnSZ6QJHVWNRoonL6pKKWkgpJZtWYNqry+Wlfmhxa2JwXhdlcPs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>w1VXGrNlEbGVJexlvRE495IeCmWe24OdaC4iwF9k2PeMjhP2ZS6kylBYzBlXwhjJGwaYUgrR226dvJlJOFwABNlACsDSrPQ0PNrzC8Bq4rfHTLN83EBJkdX7fLq11aW4nP1se2uAcnw9QOwDOfp06W3vmfrhMZXq8eMn+dUqoOU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="34c421fc85a32142a56328ca5e064ae06333d71a595d7e3aedc87c2ede2e9ebf" Description="" Url=""><as:assemblyIdentity name="Code2Html.exe" version="1.0.0.0" publicKeyToken="95b94e6e251db07f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ZJC_PC\zhjch</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>43YIFVEhnrj+X0lqBPJEnDreZzGmGraM8knfw3nwM7k=</DigestValue></Reference></SignedInfo><SignatureValue>NOg0L9wjpbMRpBplPsF1ZXASyhHX+6wCW0QzvD1pePG9xONZOlYKnyE9/FE2hd/JJ73Zz3WLBzbBPZEtloyf/9bvXbR0dkMJStaWt7GN6Ofenov0Z+vShzcyXgHWOJmSxZMUk4Q0sjkDmswOAvd/5le7qAL31znVSl8MId1I7Ag=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>w1VXGrNlEbGVJexlvRE495IeCmWe24OdaC4iwF9k2PeMjhP2ZS6kylBYzBlXwhjJGwaYUgrR226dvJlJOFwABNlACsDSrPQ0PNrzC8Bq4rfHTLN83EBJkdX7fLq11aW4nP1se2uAcnw9QOwDOfp06W3vmfrhMZXq8eMn+dUqoOU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQOZOWmQdO0a5KNFKlAYgiEDANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAWgBKAEMAXwBQAEMAXAB6AGgAagBjAGgwHhcNMTUwNjA3MTQxNzU2WhcNMTYwNjA2MjAxNzU2WjAjMSEwHwYDVQQDHhgAWgBKAEMAXwBQAEMAXAB6AGgAagBjAGgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMNVVxqzZRGxlSXsZb0ROPeSHgplntuDnWguIsBfZNj3jI4T9mUupMpQWMwZV8IYyRsGmFIK0dtunbyZSThcAATZQArA0qz0NDza8wvAauK3x0yzfNxASZHV+3y6tdWluJz9bHtrgHJ8PUDsAzn6dOlt75n64TGV6vHjJ/nVKqDlAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAIm279IZ4G+IcYetAXLEyh6v27qkkF6GWhjrvMpb1ELI2or14hUXU4kC1ad4naGIGrxhAm3mmOinV0hRzMr/s4DxhnuyyEUTAIUwwyvuuWtsQzYKDf2s6KRsVQCujFe8d8CvL+yHDmKfNr3mUpgHPGib7jZfBqXfBMCZtM8GVMVE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
